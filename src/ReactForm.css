@@ -1,0 +1,39 @@
+.ReactForm {
+    margin: 0 auto;
+    text-align: center;
+  }
+    
+  .ReactForm form input {
+    font-size: 16px;
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+  }
+    
+  .ReactForm form button {
+    background: #4C2A85;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    height: 50px;
+    width: 304px;
+    margin-top: 30px;
+  }
+
+  .ReactForm form button:hover {
+    background-color: #DABFFF;
+    color: #5E5D5C;
+    transition: background-color .1s ease-out;
+    cursor: pointer;
+    }
+  
+  .ReactForm .error {
+    border: 1px solid red;
+  }
+  
+  .ReactForm .errorMessage {
+    color: red;
+    font-size: 10px;
+  }
